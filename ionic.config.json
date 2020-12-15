@@ -1,0 +1,7 @@
+{
+  "name": "ipayos-mobile-demo",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

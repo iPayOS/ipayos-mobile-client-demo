@@ -1,0 +1,25 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>Ionic iPayOS Demo</ion-title>
+    </ion-navbar>
+
+    <div >
+      <ion-row text-center>
+        <ion-col col-3>
+          <button ion-button block class="btn " (click)="addMoney(1000)"> <p class="money-text">Rs.1000</p></button>
+        </ion-col>
+        <ion-col col-3>
+            <button ion-button block class="btn" (click)="addMoney(2500)"> <p class="money-text">Rs.2500</p></button>
+        </ion-col>
+        <ion-col col-3>
+            <button ion-button block class="btn" (click)="addMoney(5000)"> <p class="money-text">Rs.5000</p></button>
+        </ion-col>
+        <ion-col col-3>
+            <button ion-button block class="btn" (click)="addMoney(10000)"> <p class="money-text">Rs.10000</p></button>
+        </ion-col>
+      </ion-row>
+      <p text-center>Note that a convenience fee will be applicable for all VISA/MASTER cards up to {{commision.high}}% for amount above Rs.1000 and {{commision.low}}% for amount below Rs.1000. </p>
+
+
+    </div>
+</ion-header>
