@@ -2,6 +2,10 @@
 
 This is a sample mobile application developed in Ionic using iPayOS payment
 
+## Prerequisites
+* Node (Tested on version 11)
+* Ionic
+
 ## Usage
 * Register iPayOS business account in https://www.ipayos.com/ or Mobile app (https://www.ipayos.com/index.php#download)
 * Get businessId of your above account. Request csupport@yazhii.net, if you don't have a businessId
