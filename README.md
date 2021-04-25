@@ -1,4 +1,4 @@
-# yazhii-ipayos-mobile-demo
+# iPayOS payment gateway mobile client
 
 This is a sample mobile application developed in Ionic using iPayOS payment
 
